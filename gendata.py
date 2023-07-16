@@ -2,7 +2,7 @@
 import polars as pl
 import numpy as np
 
-ROWS = 1_000_000
+ROWS = 10_000_000
 
 a = np.random.randint(0, 2**32, ROWS)
 b = np.random.randint(0, 2**32, ROWS)
